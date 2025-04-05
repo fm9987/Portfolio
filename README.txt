@@ -21,10 +21,20 @@ Metti qua le idee per le pagine e quali vuoi:
 	- Personal Life
 
 
-- Career interest: Prologue
+After every time I make a change into the code I can do this into the terminal
+to update the code on github:
 
-- Personal projects: Future Imperfect
+# 1. Navigate to your project folder (if you're not already there)
+cd path/to/your/project
 
-- Hobbies: Strata
+# 2. See what has changed
+git status
 
-- Drawing: Lens
+# 3. Add the changed files to the staging area
+git add .
+
+# 4. Commit your changes with a meaningful message
+git commit -m "What you did (e.g., updated homepage layout)"
+
+# 5. Push the changes to GitHub
+git push
